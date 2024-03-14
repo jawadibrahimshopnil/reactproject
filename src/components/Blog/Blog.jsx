@@ -22,7 +22,7 @@ const Blog = ({blog}) => {
             <h2 className="text-3xl">{post_title}</h2>
             <p>
                 {
-                    hashtags.map((hashtags, idx) => <span key={idx}><a href="">#{hashtags}</a></span>)
+                    hashtags.map((hashtags, idx) => <span className="ml-2" key={idx}><a href="">#{hashtags}</a></span>)
                 }
             </p>
         </div> 

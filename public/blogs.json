@@ -1,11 +1,11 @@
 [
   {
     "id": 1,
-    "post_cover_img": "../src/assets/images/1.jpg",
+    "post_cover_img": "https://via.placeholder.com/800x400?text=Post+Cover+Image+1",
     "post_title": "How to Master API Integration in Web Development",
     "publish_date": "5 days ago",
     "reading_time": "10 minutes",
-    "author_img": "../src/assets/images/boy1.png",
+    "author_img": "https://randomuser.me/api/portraits/men/1.jpg",
     "author_name": "John Doe",
     "hashtags": [
       "API",
@@ -15,11 +15,11 @@
   },
   {
     "id": 2,
-    "post_cover_img": "../src/assets/images/2.png",
+    "post_cover_img": "https://via.placeholder.com/800x400?text=Post+Cover+Image+2",
     "post_title": "Building Scalable Web Apps with Microservices Architecture",
     "publish_date": "8 days ago",
     "reading_time": "15 minutes",
-    "author_img": "../src/assets/images/boy2.png",
+    "author_img": "https://randomuser.me/api/portraits/women/2.jpg",
     "author_name": "Jane Smith",
     "hashtags": [
       "WebApps",
@@ -29,11 +29,11 @@
   },
   {
     "id": 3,
-    "post_cover_img": "../src/assets/images/3.png",
+    "post_cover_img": "https://via.placeholder.com/800x400?text=Post+Cover+Image+3",
     "post_title": "The Importance of RESTful APIs in Modern Web Development",
     "publish_date": "3 days ago",
     "reading_time": "8 minutes",
-    "author_img": "../src/assets/images/girl1.jpg",
+    "author_img": "https://randomuser.me/api/portraits/men/3.jpg",
     "author_name": "Alex Johnson",
     "hashtags": [
       "RESTfulAPIs",
@@ -42,11 +42,11 @@
   },
   {
     "id": 4,
-    "post_cover_img": "../src/assets/images/4.jpg",
+    "post_cover_img": "https://via.placeholder.com/800x400?text=Post+Cover+Image+4",
     "post_title": "Responsive Web Design: A Complete Guide",
     "publish_date": "6 days ago",
     "reading_time": "12 minutes",
-    "author_img": "../src/assets/images/girl2.jpg",
+    "author_img": "https://randomuser.me/api/portraits/women/4.jpg",
     "author_name": "Emily Brown",
     "hashtags": [
       "ResponsiveDesign",

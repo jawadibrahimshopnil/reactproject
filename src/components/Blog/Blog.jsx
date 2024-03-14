@@ -1,11 +1,12 @@
 import PropTypes from "prop-types";
+import { IoBookmarkSharp } from "react-icons/io5";
 
-const Blog = ({blog}) => {
+const Blog = ({blog, handleBookmark}) => {
     const {post_cover_img, post_title, reading_time, publish_date, author_name, author_img, hashtags} = blog;
     // const {post_cover_img, post_title} = blog;
     return (
-        <div>
-            <img style={{"filter":"blur(0px)"}} src={post_cover_img} alt={`cover picture of ${post_title}`} />
+        <div className="mb-20">
+            <img className="w-full" style={{"filter":"blur(0px)"}} src={post_cover_img} alt={`cover picture of ${post_title}`} />
             <div className="flex justify-between">
                 <div className="flex">
                     <img className="w-14" src={author_img} alt="" />
@@ -16,10 +17,11 @@ const Blog = ({blog}) => {
                 </div>
                 <div>
                     <span>{reading_time}</span>
+                    <button onClick={()=>handleBookmark(blog)}><IoBookmarkSharp /></button>
                 </div>
             </div>
 
-            <h2 className="text-3xl">{post_title}</h2>
+            <h2 className="text-2xl font-medium">{post_title}</h2>
             <p>
                 {
                     hashtags.map((hashtags, idx) => <span className="ml-2" key={idx}><a href="">#{hashtags}</a></span>)
@@ -30,7 +32,8 @@ const Blog = ({blog}) => {
 };
 
 Blog.propTypes = {
-    blog: PropTypes.object.isRequired
+    blog: PropTypes.object.isRequired,
+    handleBookmark: PropTypes.func
 }
 
 export default Blog;
